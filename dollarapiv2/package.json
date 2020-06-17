@@ -1,0 +1,27 @@
+{
+  "name": "dollarapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "scraping": "nodemon src/scraping/scraping.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.13",
+    "morgan": "^1.10.0",
+    "node-cron": "^2.0.3",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
