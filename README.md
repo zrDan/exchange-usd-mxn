@@ -14,7 +14,7 @@ Project is created with: <BR> <BR>
 
 ## Setup
 
-To run this project, install it locally using npm in backen and frontend
+To run this project, install it locally using npm in backend and frontend
 
 ```
 $ cd backend/
