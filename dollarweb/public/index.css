@@ -4,6 +4,23 @@
 }
 
 @font-face {
-  font-family: "Montserrat", sans-serif;
-  src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500&display=swap");
+  font-family: "Nunito";
+  src: url("./font/Nunito-Regular.ttf"); /* IE9 Compat Modes */
+  src: url("./font/Nunito-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #7c33d4;
 }
