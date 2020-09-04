@@ -1,0 +1,48 @@
+.container {
+  padding-top: 2rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, 33.3%);
+  background-color: #7c33d4;
+  color: #f3f3f3;
+  height: 2rem;
+  text-align: center;
+  align-content: center;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  font-weight: bold;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: repeat(3, 33.3%);
+  align-items: center;
+  height: 4rem;
+}
+
+.bank-logo {
+  height: 2rem;
+  padding-right: 10px;
+}
+
+.bank-name {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.exchange {
+  text-align: center;
+}
