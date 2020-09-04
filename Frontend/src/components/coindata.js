@@ -17,7 +17,7 @@ class CoinData extends Component {
   render() {
     return (
       <div className="container">
-        <div className="header">
+        <div className="header animate__animated animate__slideInUp">
           <div>Banco</div>
           <div>Compra (USD)</div>
           <div>Venta (USD)</div>
@@ -25,7 +25,7 @@ class CoinData extends Component {
 
         {this.state.banks.map((bank) => (
           <div key={bank._id} className="item">
-            <div className="bank-name">
+            <div className="bank-name animate__animated animate__slideInUp">
               <img src={bank.Logo} className="bank-logo" alt="logo" />
               {bank._id}
             </div>

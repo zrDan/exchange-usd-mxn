@@ -6,7 +6,7 @@ import "./styles/navbar.css";
 class NavBar extends Component {
   render() {
     return (
-      <nav className="navbar">
+      <nav className="navbar animate__animated animate__slideInDown">
         <img className="logo" src={Logo} alt="logo" />
         <a href="https://github.com/zrDan/exchange-usd-mxn">
           <img className="github-icon" src={github} alt="github-icon" />
