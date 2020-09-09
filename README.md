@@ -1,6 +1,6 @@
 # USD Exchange
 
-This project shows the exchange rate in each bank. 
+This project shows the exchange rate in each bank. <BR>
 ![web](https://user-images.githubusercontent.com/42875282/92638886-a11ddf00-f2a0-11ea-8392-68f65b802ff3.png) &nbsp; [Demo](https://dollarweb.herokuapp.com/)
 
 ## Technologies
